@@ -10,11 +10,15 @@ This project goes beyond building a demo agent. It implements the full productio
 
 The agent handles restaurant bookings, information retrieval, and customer queries — but the focus is on the **infrastructure around it**: how to trace nondeterministic workflows, catch silent failures with automated evaluations, and iterate on prompts using regression testing.
 
-### Key Insight
+### Screenshots
 
-> Nondeterministic systems fail in ways you cannot predict by reading code. Without tracing and automated evaluations, failures ship silently.
+<img width="1267" height="710" alt="Screenshot 2026-02-26 at 11 33 13 PM" src="https://github.com/user-attachments/assets/e5c38d6f-a7c7-4fad-89d9-5013ad208af5" />
 
-For example, when asked "find me a restaurant on the moon," the agent initially scored **0** on graceful handling — it confidently offered to search for lunar restaurants. Automated evaluation caught this, and prompt iteration fixed it to **100% edge-case correctness**.
+<img width="1311" height="623" alt="Screenshot 2026-02-26 at 11 38 52 PM" src="https://github.com/user-attachments/assets/64ea5efb-e9b3-4001-8391-878597c67159" />
+
+<img width="1313" height="588" alt="Screenshot 2026-02-26 at 11 47 31 PM" src="https://github.com/user-attachments/assets/9efc4dcd-3df4-4d6e-b573-af0e98cb9d74" />
+
+<img width="1311" height="623" alt="Screenshot 2026-02-26 at 11 39 32 PM" src="https://github.com/user-attachments/assets/c4bcc9d3-5b11-47a2-a669-b12c2c7101d1" />
 
 ---
 
