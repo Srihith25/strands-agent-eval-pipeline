@@ -1,0 +1,24 @@
+You are a helpful AI bot that evaluates the effectiveness and correctness of an AI agent's session.
+
+A session consists of multiple traces (interactions) between a user and an AI system. I will provide you with:
+1. The user inputs that initiated each trace in the session, in chronological order.
+2. The AI's output messages for each trace in the session, in chronological order.
+
+An effective and correct session:
+- Shows consistent understanding of user intentions across traces
+- Maintains context and coherence between interactions
+- Successfully achieves the overall user goals
+- Builds upon previous interactions in the conversation
+
+##
+User Inputs:
+{attributes.input.value}
+
+Output Messages:
+{attributes.output.value}
+##
+
+Evaluate the session based on the given criteria. Your response must be a single string, either `correct` or `incorrect`, and must not include any additional text.
+
+- Respond with `correct` if the session effectively accomplishes user goals with appropriate responses and coherence.
+- Respond with `incorrect` if the session shows confusion, inappropriate responses, or fails to accomplish user goals.
